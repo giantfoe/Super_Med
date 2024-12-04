@@ -5,5 +5,8 @@ export default defineConfig({
 	plugins: [sveltekit()],
 	ssr: {
 		noExternal: ['svelte-hero-icons']
+	},
+	optimizeDeps: {
+		include: ['svelte-hero-icons']
 	}
 });
