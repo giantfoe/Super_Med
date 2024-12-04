@@ -10,9 +10,18 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
 	"devDependencies": {
+		"@faker-js/faker": "^9.3.0",
+		"@smui/button": "^8.0.0-beta.0",
+		"@smui/card": "^8.0.0-beta.0",
+		"@smui/data-table": "^8.0.0-beta.0",
+		"@smui/dialog": "^8.0.0-beta.0",
+		"@smui/form-field": "^8.0.0-beta.0",
+		"@smui/select": "^8.0.0-beta.0",
+		"@smui/textfield": "^8.0.0-beta.0",
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/kit": "^2.9.0",
 		"@sveltejs/vite-plugin-svelte": "^5.0.0",
+		"@types/uuid": "^10.0.0",
 		"autoprefixer": "^10.4.20",
 		"postcss": "^8.4.49",
 		"svelte": "^5.0.0",
@@ -24,6 +33,7 @@
 	},
 	"dependencies": {
 		"@supabase/ssr": "^0.5.2",
-		"@supabase/supabase-js": "^2.46.2"
+		"@supabase/supabase-js": "^2.46.2",
+		"uuid": "^11.0.3"
 	}
 }

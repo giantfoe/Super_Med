@@ -1,0 +1,12 @@
+:root {
+  --color-primary: #4f46e5; /* Indigo */
+  --color-secondary: #0ea5e9; /* Sky Blue */
+  --color-accent: #f59e0b; /* Amber */
+  --color-background: #f8fafc; /* Light Gray */
+  --color-surface: #ffffff; /* White */
+  --color-error: #ef4444; /* Red */
+  --color-on-primary: #ffffff; /* White */
+  --color-on-secondary: #ffffff; /* White */
+  --color-on-surface: #1f2937; /* Dark Gray */
+  --color-on-error: #ffffff; /* White */
+} 
