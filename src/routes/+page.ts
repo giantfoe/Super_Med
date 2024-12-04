@@ -1,6 +1,7 @@
-export async function load() {
+import type { PageLoad } from './$types';
+
+export const load: PageLoad = async () => {
   return {
-    someSlowData: loadSlowData(), // Returns Promise, doesn't await
-    fastData: await loadFastData() // Awaits fast data
+    // Return any data needed for the page
   };
-} 
+}; 
