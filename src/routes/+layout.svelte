@@ -2,10 +2,15 @@
   import "../app.css";
   import { page } from '$app/stores';
   import { Icon } from 'svelte-hero-icons';
+  import Logo from '$lib/components/Logo.svelte';
 </script>
 
 <svelte:head>
-  <title>{$page.data.title ?? 'SuperMed'}</title>
+  <title>{$page.data.title ?? 'Medikated'}</title>
+  <meta name="description" content="Your personal medication and healthcare companion" />
+  <meta name="theme-color" content="#2f88f0" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 </svelte:head>
 
 <div class="min-h-screen bg-white flex flex-col">
@@ -13,8 +18,8 @@
   <header class="bg-white border-b border-neutral-200/80 sticky top-0 z-50">
     <div class="max-w-2xl mx-auto px-4">
       <div class="flex h-14 items-center justify-between">
-        <a href="/" class="text-lg font-bold text-primary-600">
-          SuperMed
+        <a href="/" class="flex items-center">
+          <Logo size="sm" />
         </a>
         <button class="p-2 text-neutral-600 hover:text-primary-600">
           <Icon name="user-circle" class="w-6 h-6" />
